@@ -17,9 +17,9 @@
 				<span id='TrackText'>&nbsp;</span>
 			</div>
 			<div id="Content">
-				<a href="#" onclick="ButtonPress('prev');return true;"> <img class="btn" src="img/buttons/Rewind.png" /> </a>
-				<a href="#" onclick="ButtonPress('play');return true;"> <img class="btn" src="img/buttons/Play.png" /> </a>
-				<a href="#" onclick="ButtonPress('next');return true;"> <img class="btn" src="img/buttons/fastforward.png" /> </a>
+				<a href="#" onclick="ButtonPress('prev');return true;"> <img class="btn" id='prev' src="img/buttons/Rewind.png" /> </a>
+				<a href="#" onclick="ButtonPress('play');return true;"> <img class="btn" id='play' src="img/buttons/Play.png" /> </a>
+				<a href="#" onclick="ButtonPress('next');return true;"> <img class="btn" id='next' src="img/buttons/fastforward.png" /> </a>
 			</div>
 		</div>
 		<div id='ShadowBottom'></div>

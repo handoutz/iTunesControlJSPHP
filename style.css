@@ -14,7 +14,8 @@ a:hover {
 	color: #111;
 }
 img.btn {
-	
+	width:40px;
+	height:40px;
 }
 div#CurTrack {
 	margin-top: 2px;
@@ -33,7 +34,7 @@ div#Wrapper {
 	/*border-left-image:url("img/shadow/shadowLeft.png");*/
 	/*-webkit-border-image: url('/wp-content/uploads/2007/09/border.png') 27 round round;*/
 /*-webkit-border-image-left: repeat-x url('img/shadow/shadowLeft.png') 10;**/
-	-webkit-box-shadow: 0 0 10px 4px black;
+	-webkit-box-shadow: 0 4px 10px 4px black;
 	border-top:0;
 }
 div#Time {
