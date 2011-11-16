@@ -18,17 +18,15 @@ img.btn {
 	height: 40px;
 }
 div#CurTrack {
-	height: 14px;
-	font-size: 14px;
 	margin-top: 2px;
-	padding-bottom: 4px;
+	padding-bottom: 8px;
 	background-color: #3d3d3d;
 }
 div#Wrapper {
 	margin: 0 15% 0 15%;
 	text-align: center;
 	background-color: white;
-	border:#262626 solid 2px;
+	border: #262626 solid 2px;
 	border-top: none;
 }
 div#Time {
@@ -41,8 +39,17 @@ div#Floater {
 	top: 5px;
 	right: 7px;
 }
-span#TrackText{
-	
+div#Footer {
+	height:15%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	padding-top: 5px;
+	text-align: center;
+	background-color: black;
+}
+span#TrackText {
+	font-size: 34px;
 }
 span.t {
 	color: green;

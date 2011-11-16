@@ -8,6 +8,7 @@
 	<body>
 		<div id="Wrapper">
 			<div id="CurTrack">
+				Now Playing<br />
 				<span id='TrackText'>&nbsp;</span>
 			</div>
 			<a href="#" onclick="ButtonPress('prev');return true;">
@@ -19,6 +20,9 @@
 			<a href="#" onclick="ButtonPress('next');return true;">
 				<img class="btn" src="img/next.png" />
 			</a>
+		</div>
+		<div id="Footer">
+			Copyright &copy; Vince Matonis 2011 (just for the hell of it, you know?)
 		</div>
 		<div id="Floater">
 			
