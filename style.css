@@ -29,6 +29,6 @@ div#Time {
 div#Floater{
 	text-align:left;
 	position:fixed;
-	top:0;
-	right:10;
+	top:5px;
+	right:7px;
 }
