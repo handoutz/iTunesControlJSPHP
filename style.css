@@ -32,3 +32,9 @@ div#Floater{
 	top:5px;
 	right:7px;
 }
+span.t{
+	color:green;
+}
+span.f{
+	color:red;
+}
