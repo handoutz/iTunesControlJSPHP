@@ -6,9 +6,6 @@
 		<link rel="stylesheet" href="style.css" type="text/css"/>
 	</head>
 	<body>
-		<div id="floater">
-			
-		</div>
 		<div id="Wrapper">
 			<div id="CurTrack">&nbsp;</div>
 			<a href="#" onclick="ButtonPress('prev');return true;">
@@ -20,6 +17,9 @@
 			<a href="#" onclick="ButtonPress('next');return true;">
 				<img class="btn" src="img/next.png" />
 			</a>
+		</div>
+		<div id="Floater">
+			
 		</div>
 	</body>
 </html>

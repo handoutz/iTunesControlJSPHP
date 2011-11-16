@@ -28,4 +28,7 @@ div#Time {
 }
 div#Floater{
 	text-align:left;
+	position:fixed;
+	top:0;
+	right:10;
 }
