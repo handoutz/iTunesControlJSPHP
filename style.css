@@ -29,8 +29,10 @@ div#Wrapper {
 	margin: 0 15% 0 15%;
 	text-align: center;
 	background-color: white;
-	border: #262626 solid 2px;
 	border-top: none;
+	/*border-left-image:url("img/shadow/shadowLeft.png");*/
+	/*-webkit-border-image: url('/wp-content/uploads/2007/09/border.png') 27 round round;*/
+	-webkit-border-image-left:url('img/shadow/shadowLeft.png') 10 round round;
 }
 div#Time {
 	height: 14px;
