@@ -22,12 +22,14 @@ div#CurTrack {
 	font-size: 14px;
 	margin-top: 2px;
 	padding-bottom: 4px;
-	background:repeat url('img/background.png');
+	background-color: #3d3d3d;
 }
 div#Wrapper {
 	margin: 0 15% 0 15%;
 	text-align: center;
 	background-color: white;
+	border:#262626 solid 2px;
+	border-top: none;
 }
 div#Time {
 	height: 14px;
