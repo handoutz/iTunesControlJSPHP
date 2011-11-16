@@ -21,18 +21,21 @@ div#CurTrack {
 	margin-top: 2px;
 	padding-bottom: 8px;
 	background-color: #3d3d3d;
+	-webkit-box-shadow: 0 -5px 10px 4px black;
 }
 div#Content{
-	
+	padding:10px 0 10px 0;
 }
 div#Wrapper {
 	margin: 0 15% 0 15%;
+	padding-top: 0px;
 	text-align: center;
 	background-color: white;
-	border-top: none;
 	/*border-left-image:url("img/shadow/shadowLeft.png");*/
 	/*-webkit-border-image: url('/wp-content/uploads/2007/09/border.png') 27 round round;*/
-	-webkit-border-image-left:url('img/shadow/shadowLeft.png') 10 round round;
+/*-webkit-border-image-left: repeat-x url('img/shadow/shadowLeft.png') 10;**/
+	-webkit-box-shadow: 0 0 10px 4px black;
+	border-top:0;
 }
 div#Time {
 	height: 14px;

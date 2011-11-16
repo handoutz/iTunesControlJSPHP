@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--border: #262626 solid 2px;-->
 <html>
@@ -11,28 +11,21 @@
 	</head>
 	<body>
 		<div id="Wrapper">
+			<div id="CurTrack">
+				Now Playing
+				<br />
+				<span id='TrackText'>&nbsp;</span>
+			</div>
 			<div id="Content">
-				<div id="CurTrack">
-					Now Playing<br />
-					<span id='TrackText'>&nbsp;</span>
-				</div>
-				<a href="#" onclick="ButtonPress('prev');return true;">
-					<img class="btn" src="img/prev.png" />
-				</a>
-				<a href="#" onclick="ButtonPress('play');return true;">
-					<img class="btn" src="img/play.png" />
-				</a>
-				<a href="#" onclick="ButtonPress('next');return true;">
-					<img class="btn" src="img/next.png" />
-				</a>
+				<a href="#" onclick="ButtonPress('prev');return true;"> <img class="btn" src="img/prev.png" /> </a>
+				<a href="#" onclick="ButtonPress('play');return true;"> <img class="btn" src="img/play.png" /> </a>
+				<a href="#" onclick="ButtonPress('next');return true;"> <img class="btn" src="img/next.png" /> </a>
 			</div>
 		</div>
-		<div id='ShadowBottom'> </div>
+		<div id='ShadowBottom'></div>
 		<div id="Footer">
 			Copyright &copy; Vince Matonis 2011 (just for the hell of it, you know?)
 		</div>
-		<div id="Floater">
-			
-		</div>
+		<div id="Floater"></div>
 	</body>
 </html>
