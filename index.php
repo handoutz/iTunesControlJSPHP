@@ -4,6 +4,7 @@
 		<script src="lib/jquery.js" type="text/javascript"></script>
 		<script type="text/javascript" src="lib/iTunesLib.js"></script>
 		<link rel="stylesheet" href="style.css" type="text/css"/>
+		<link rel="stylesheet" href="shadows.css" type="text/css"/>
 	</head>
 	<body>
 		<div id="Wrapper">
