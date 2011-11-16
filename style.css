@@ -1,6 +1,9 @@
 body {
 	font-family: sans-serif;
-	background:repeat url("img/background.png") ;
+	background: repeat url("img/background.png");
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	color: white;
 }
 a {
 	text-decoration: none;
@@ -17,25 +20,28 @@ img.btn {
 div#CurTrack {
 	height: 14px;
 	font-size: 14px;
+	margin-top: 2px;
 	margin-bottom: 8px;
+	background:repeat url('img/clear.png');
 }
 div#Wrapper {
 	margin: 0 15% 0 15%;
 	text-align: center;
+	background-color: white;
 }
 div#Time {
 	height: 14px;
 	font-size: 14px;
 }
-div#Floater{
-	text-align:left;
-	position:fixed;
-	top:5px;
-	right:7px;
+div#Floater {
+	text-align: left;
+	position: fixed;
+	top: 5px;
+	right: 7px;
 }
-span.t{
-	color:green;
+span.t {
+	color: green;
 }
-span.f{
-	color:red;
+span.f {
+	color: red;
 }
