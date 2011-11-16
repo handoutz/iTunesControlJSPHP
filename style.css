@@ -1,0 +1,31 @@
+body {
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+	border: none;
+	color: black;
+}
+a:hover {
+	color: #111;
+}
+img.btn {
+	width: 40px;
+	height: 40px;
+}
+div#CurTrack {
+	height: 14px;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+div#Wrapper {
+	margin: 0 15% 0 15%;
+	text-align: center;
+}
+div#Time {
+	height: 14px;
+	font-size: 14px;
+}
+div#Floater{
+	text-align:left;
+}
