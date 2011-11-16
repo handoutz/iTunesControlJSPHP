@@ -21,8 +21,8 @@ div#CurTrack {
 	height: 14px;
 	font-size: 14px;
 	margin-top: 2px;
-	margin-bottom: 8px;
-	background:repeat url('img/clear.png');
+	padding-bottom: 4px;
+	background:repeat url('img/background.png');
 }
 div#Wrapper {
 	margin: 0 15% 0 15%;
@@ -38,6 +38,9 @@ div#Floater {
 	position: fixed;
 	top: 5px;
 	right: 7px;
+}
+span#TrackText{
+	
 }
 span.t {
 	color: green;

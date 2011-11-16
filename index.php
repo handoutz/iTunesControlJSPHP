@@ -7,7 +7,9 @@
 	</head>
 	<body>
 		<div id="Wrapper">
-			<div id="CurTrack">&nbsp;</div>
+			<div id="CurTrack">
+				<span id='TrackText'>&nbsp;</span>
+			</div>
 			<a href="#" onclick="ButtonPress('prev');return true;">
 				<img class="btn" src="img/prev.png" />
 			</a>
